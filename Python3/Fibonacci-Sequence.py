@@ -7,6 +7,6 @@ def fibonacci(n):
         output.append(output[-1] + output[-2]) #append sum of last two values
     return output
 
-fib_arr = fibonacci(50)
+fib_arr = fibonacci(25)
 for value in fib_arr: #print each value of array
     print(value)
